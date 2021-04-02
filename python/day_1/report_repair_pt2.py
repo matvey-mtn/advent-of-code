@@ -5,7 +5,6 @@ def find_3_entries_with_sum(input_list, requested_sum):
     head_pointer = fixed_pointer + 1
     tail_pointer = len(report) - 1
 
-    # result = []
     # outer loop increments fixed_pointer
     while fixed_pointer + 1 < tail_pointer:
         # inner loop running on sub-list: report[head_pointer:tail_pointer]
